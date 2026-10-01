@@ -1,0 +1,16 @@
+# ================================================================
+# application.properties.example  —  TEMPLATE (safe to commit)
+# ================================================================
+# Copy this file to application-local.properties and fill in
+# your real values. Run the app with:
+#   --spring.profiles.active=local
+# OR set environment variables:
+#   DB_USERNAME, DB_PASSWORD, MAIL_USERNAME, MAIL_PASSWORD
+# ================================================================
+
+spring.datasource.username=YOUR_DB_USERNAME
+spring.datasource.password=YOUR_DB_PASSWORD
+
+spring.mail.username=YOUR_GMAIL_ADDRESS@gmail.com
+# Generate an App Password at https://myaccount.google.com/apppasswords
+spring.mail.password=YOUR_GMAIL_APP_PASSWORD
