@@ -28,6 +28,9 @@ Database: MySQL with Spring Data JPA / Hibernate
 ## 👨‍💻Admin Login 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1a0d40d1-d25e-4d08-bfd5-0da855899018" />                                     
                                                                                                                                                                         
+## 👨‍💻Admin Profile                                                                                                                                                      
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/44981be8-8a19-496a-99d7-85afb34d1d0d" />                                     
+
 ## 📊 Dashboard                                                                                                                                                         
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6d0046f8-340f-40b0-ae8b-9d80d675bc29" />                                     
                                                                                                                                                                         
@@ -35,10 +38,15 @@ Database: MySQL with Spring Data JPA / Hibernate
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7164dd52-f97c-4708-8930-6515bf24b43a" />                                     
                                                                                                                                                                         
 ## 👨‍💼 Add Employee                                                                                                                                                      
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/17a3a70b-fb97-4d50-90a1-3e09bb05d377" />
-
-
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/17a3a70b-fb97-4d50-90a1-3e09bb05d377" />                                     
+                                                                                                                                                                        
+## 🏢 Department Management                                                                                                                                             
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e4f01054-f823-4fce-8d65-54e89df549cf" />                                     
+                                                                                                                                                                        
+## 🏢 Add Department                                                                                                                                                  
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/04475003-e058-4f27-ba67-a6f24130ceb6" />                                     
+                                                                                                                                                                        
+                                                                                                                                                                      
 ## 📁 Project Structure
 
 Full_Stack_EMS/                                                                                                                                                          
