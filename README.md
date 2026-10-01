@@ -9,11 +9,11 @@ A full-stack Employee Management System for managing employees, departments, adm
 
 The Employee Management System (EMS) is a web-based admin application designed to simplify employee and department management. It provides an administrator with a centralized dashboard to create, view, update, search, filter, and delete employee records, while also managing departments and account security.
 
-The application follows a three-tier architecture:
+The Application follows a Three-Tier Architecture:
 
-Frontend: React.js + Vite + Bootstrap 5
-Backend: Java + Spring Boot REST API
-Database: MySQL with Spring Data JPA / Hibernate
+Frontend: React.js + Vite + Bootstrap 5                                                                                                                                  
+Backend: Java + Spring Boot REST API                                                                                                                                     
+Database: MySQL with Spring Data JPA / Hibernate                                                                                                                         
 
 
 ## Key Features                                                                                                                                                          
