@@ -1,6 +1,6 @@
 
 
-# Employee Management System (EMS)
+## 👨‍💻 Employee Management System (EMS)👨‍💼👨‍💼
 
 A full-stack Employee Management System for managing employees, departments, administrative authentication, dashboard statistics, and employee records through a modern React frontend and Spring Boot REST API.
 
