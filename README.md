@@ -57,26 +57,23 @@ Full_Stack_EMS/
 
 ## ⚡ Quick Start
 
-1. Database Setup (MySQL)
- mysql -u root -p < database/ems_db
+1. Database Setup (MySQL)                                                                                                                                                
+     mysql -u root -p < database/ems_db
 
-2. Backend Setup (Spring Boot)
- cd Ems-Backend
+2. Backend Setup (Spring Boot)                                                                                                                                           
+ 
+     cd Ems-Backend                                                                                                                                                      
+     // Update database credentials in src/main/resources/application.properties                                                                                         
+     mvn clean install                                                                                                                                                   
+     mvn spring-boot:run                                                                                                                                                 
+     Backend runs at: http://localhost:8080                                                                                                                              
 
- Update database credentials in src/main/resources/application.properties
-
- mvn clean install
- mvn spring-boot:run
-
- Backend runs at: http://localhost:8080
-
-3. Frontend Setup (React)
+3. Frontend Setup (React)                                                                                                                                                
    
- cd Ems-Frontend
- npm install
- npm run dev
-
- Frontend runs at: http://localhost:3000
+     cd Ems-Frontend                                                                                                                                                     
+     npm install                                                                                                                                                         
+     npm run dev                                                                                                                                                         
+     Frontend runs at: http://localhost:3000                                                                                                                             
 
 
 ## 🔌 REST API Endpoints
