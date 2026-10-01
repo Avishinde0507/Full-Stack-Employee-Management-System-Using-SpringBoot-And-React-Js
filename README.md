@@ -2,35 +2,137 @@
 
 # Employee Management System (EMS)
 
-A full-stack Employee Management System built with **Spring Boot (REST API)**, **React**, and **MySQL**.
+A full-stack Employee Management System for managing employees, departments, administrative authentication, dashboard statistics, and employee records through a modern React frontend and Spring Boot REST API.
 
-## Tech Stack
 
-| Layer     | Technology |
-|-----------|------------|
-| Frontend  | React.js (Vite), Bootstrap 5, Bootstrap Icons, Recharts, Axios, React Router |
-| Backend   | Java 17, Spring Boot 3.3, Spring Data JPA, Spring Validation, springdoc-openapi |
-| Database  | MySQL 8 |
+## About
 
-## Features
+The Employee Management System (EMS) is a web-based admin application designed to simplify employee and department management. It provides an administrator with a centralized dashboard to create, view, update, search, filter, and delete employee records, while also managing departments and account security.
 
-- **Employees**: create, view, edit, delete; search by name/email/designation; filter by department and status; sortable, paginated table
-- **Departments**: create, view, edit, delete (a department with employees still assigned cannot be deleted)
-- **Dashboard**: total/active/inactive employee counts, department headcount chart, recently joined list
-- Clean validation with field-level error messages (both client-side and server-side)
-- Centralized error handling on the backend (404 / 409 / 400 / 500 all return consistent JSON)
-- CORS pre-configured for the Vite dev server
-- Sample data is seeded automatically on first run so the app isn't empty
-- Interactive API docs via Swagger UI
+The application follows a three-tier architecture:
 
-## Project Structure
+Frontend: React.js + Vite + Bootstrap 5
+Backend: Java + Spring Boot REST API
+Database: MySQL with Spring Data JPA / Hibernate
 
-```
+
+## Key Features
+
+🔐 Admin Authentication & Security
+📊 Dashboard
+👨‍💼 Employee Management
+🏢 Department Management
+📧 Email & OTP
+
+
+## 📁 Project Structure
+
 Full_Stack_EMS/
-├── Ems-Backend/     Spring Boot REST API (Java)
-├── Ems-Frontend/    React + Vite single-page app
-└── database/        Optional manual SQL script
-```
+│
+├── database/
+│   └── ems_schema.sql                 # MySQL database bootstrap script
+│
+├── Ems-Backend/
+│   ├── pom.xml                        # Maven configuration
+│   ├── mvnw / mvnw.cmd                # Maven Wrapper
+│   └── src/
+│       ├── main/java/net/javaguides/Ems/
+│       │   ├── config/                # CORS, Swagger and data seeding
+│       │   ├── controller/            # REST API controllers
+│       │   ├── dto/                   # Request/response DTOs
+│       │   ├── entity/                # JPA entities and enums
+│       │   ├── exception/             # Custom exceptions and handlers
+│       │   ├── mapper/                # Entity/DTO mapping
+│       │   ├── repository/             # Spring Data repositories
+│       │   └── service/               # Business logic
+│       │       └── impl/
+│       ├── main/resources/
+│       │   └── application.properties # Backend configuration
+│       └── test/                       # Backend tests
+│
+└── Ems-Frontend/
+    ├── package.json                   # NPM configuration
+    ├── vite.config.js                 # Vite configuration
+    ├── .env                           # Frontend environment configuration
+    └── src/
+        ├── api/                       # Axios API service modules
+        ├── components/                # Reusable UI components
+        ├── context/                   # Authentication context
+        ├── pages/                     # Application pages
+        ├── utils/                     # Constants and formatters
+        ├── App.jsx                    # Application routes
+        └── main.jsx                   # React entry point
+
+
+## 🛠️ Tech Stack
+
+|-----------------------|-------------------------------|
+| Layer                 | Technology                    |
+|-----------------------|-------------------------------|
+| Frontend              | React 19                      |
+| Frontend Build Tool   | Vite 7                        |
+| UI Framework          | Bootstrap 5.3                 |
+| Icons                 | Bootstrap Icons               |
+| Routing               | React Router DOM 6            |
+| HTTP Client           | Axios                         |
+| Backend               | Java 17                       |
+| Framework             | Spring Boot 3.3.5             |
+| REST API              | Spring Web                    |
+| ORM                   | Spring Data JPA / Hibernate   |
+| Validation            | Spring Boot Validation        |
+| Database              | MySQL                         |
+| Email                 | Spring Mail / Gmail SMTP      |         
+| Build Tool            | Maven                         |
+| Code Simplification   | Lombok                        |
+|-----------------------|-------------------------------|
+
+
+## ⚡ Quick Start
+1. Database Setup (MySQL)
+mysql -u root -p < database/ems_db
+
+2. Backend Setup (Spring Boot)
+cd Ems-Backend
+# Update database credentials in src/main/resources/application.properties
+mvn clean install
+mvn spring-boot:run
+
+Backend runs at: http://localhost:8080
+
+3. Frontend Setup (React)
+cd Ems-Frontend
+npm install
+npm run dev
+
+Frontend runs at: http://localhost:3000
+
+
+## 🔌 REST API Endpoints
+
+Base URL:http://localhost:8080/api
+
+## 🔐 Authentication APIs
+
+| Method | Endpoint              | Description       |
+|--------|-----------------------|-------------------|
+| POST   | /auth/login    | User login        |
+| POST   | /auth/verify-otp | User registration |
+| POST   | /auth/resend-otp?email={email}    |
+| GET    | /auth/me?email={email}                        |
+| POST   | /auth/profile-photo                  |
+| POST   | /auth/logout             |
+| POST   | /auth/change-password/initiate                   |
+| POST   | /auth/change-password/verify   |
+| POST   | /auth/change-password/resend-otp?email={email}        |
+|-----------------------|-------------------------------|
+
+
+
+
+
+
+
+
 
 ## Prerequisites
 
