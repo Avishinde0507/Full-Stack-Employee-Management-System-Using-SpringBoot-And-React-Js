@@ -7,7 +7,7 @@ A full-stack Employee Management System for managing employees, departments, adm
 
 ## About
 
-The Employee Management System (EMS) is a web-based admin application designed to simplify employee and department management. It provides an administrator with a centralized dashboard to create, view, update, search, filter, and delete employee records, while also managing departments and account security.
+the Employee Management System (EMS) is a web-based admin application designed to simplify employee and department management. It provides an administrator with a centralized dashboard to create, view, update, search, filter, and delete employee records, while also managing departments and account security.
 
 The Application follows a Three-Tier Architecture:
 
