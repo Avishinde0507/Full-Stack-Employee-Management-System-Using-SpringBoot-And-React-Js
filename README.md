@@ -28,10 +28,10 @@ Database: MySQL with Spring Data JPA / Hibernate
 ## 📁 Project Structure
 
 Full_Stack_EMS/                                                                                                                                                          
-├── database/             → ems_schema.sql                                                                                                                               
-├── Ems-Backend/          → Java Spring Boot Backend                                                                                                                     
-├── Ems-Frontend/         → React.js & Vite configuration(with Bootstrap)                                                                                                
-└── README.md             → This file                                                                                                                                         
+├── database/                              → ems_schema.sql                                                                                                              
+├── Ems-Backend/                           → Java Spring Boot Backend                                                                                                    
+├── Ems-Frontend/                          → React.js & Vite configuration(with Bootstrap)                                                                               
+└── README.md                              → This file                                                                                                                   
     
 
 ## 🛠️ Tech Stack
