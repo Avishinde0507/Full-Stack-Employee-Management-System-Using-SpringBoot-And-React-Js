@@ -25,6 +25,20 @@ Database: MySQL with Spring Data JPA / Hibernate
 📧 Email & OTP                                                                                                                                                          
 
 
+## 👨‍💻Admin Login 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1a0d40d1-d25e-4d08-bfd5-0da855899018" />                                     
+                                                                                                                                                                        
+## 📊 Dashboard                                                                                                                                                         
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6d0046f8-340f-40b0-ae8b-9d80d675bc29" />                                     
+                                                                                                                                                                        
+## 👨‍💼 Employee Management                                                                                                                                               
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7164dd52-f97c-4708-8930-6515bf24b43a" />                                     
+                                                                                                                                                                        
+## 👨‍💼 Add Employee                                                                                                                                                      
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/17a3a70b-fb97-4d50-90a1-3e09bb05d377" />
+
+
+
 ## 📁 Project Structure
 
 Full_Stack_EMS/                                                                                                                                                          
