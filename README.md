@@ -28,14 +28,17 @@ Database: MySQL with Spring Data JPA / Hibernate
 ## 📁 Project Structure
 
 Full_Stack_EMS/
+|
 │
 ├── database/
 │   └── ems_schema.sql                 # MySQL database bootstrap script
 │
+|
 ├── Ems-Backend/
 │   ├── pom.xml                        # Maven configuration
 │   ├── mvnw / mvnw.cmd                # Maven Wrapper
 │   └── src/
+|       |
 │       ├── main/java/net/javaguides/Ems/
 │       │   ├── config/                # CORS, Swagger and data seeding
 │       │   ├── controller/            # REST API controllers
