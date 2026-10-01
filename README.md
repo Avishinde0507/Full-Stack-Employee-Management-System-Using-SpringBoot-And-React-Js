@@ -16,13 +16,13 @@ Backend: Java + Spring Boot REST API
 Database: MySQL with Spring Data JPA / Hibernate
 
 
-## Key Features
+## Key Features                                                                                                                                                          
 
-🔐 Admin Authentication & Security
-📊 Dashboard
-👨‍💼 Employee Management
-🏢 Department Management
-📧 Email & OTP
+🔐 Admin Authentication & Security                                                                                                                                      
+📊 Dashboard                                                                                                                                                            
+👨‍💼 Employee Management                                                                                                                                                  
+🏢 Department Management                                                                                                                                                
+📧 Email & OTP                                                                                                                                                          
 
 
 ## 📁 Project Structure
