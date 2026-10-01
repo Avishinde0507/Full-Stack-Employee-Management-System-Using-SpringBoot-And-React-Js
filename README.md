@@ -58,25 +58,25 @@ Full_Stack_EMS/
 ## ⚡ Quick Start
 
 1. Database Setup (MySQL)
-mysql -u root -p < database/ems_db
+ mysql -u root -p < database/ems_db
 
 2. Backend Setup (Spring Boot)
-cd Ems-Backend
+ cd Ems-Backend
 
-Update database credentials in src/main/resources/application.properties
+ Update database credentials in src/main/resources/application.properties
 
-mvn clean install
-mvn spring-boot:run
+ mvn clean install
+ mvn spring-boot:run
 
-Backend runs at: http://localhost:8080
+ Backend runs at: http://localhost:8080
 
 3. Frontend Setup (React)
    
-cd Ems-Frontend
-npm install
-npm run dev
+ cd Ems-Frontend
+ npm install
+ npm run dev
 
-Frontend runs at: http://localhost:3000
+ Frontend runs at: http://localhost:3000
 
 
 ## 🔌 REST API Endpoints
