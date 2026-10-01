@@ -1,3 +1,5 @@
+![Uploading image.png…]()
+
 # Employee Management System (EMS)
 
 A full-stack Employee Management System built with **Spring Boot (REST API)**, **React**, and **MySQL**.
